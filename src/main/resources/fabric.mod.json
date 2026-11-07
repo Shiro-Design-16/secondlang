@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "secondlang",
+  "version": "${version}",
+  "name": "secondlang",
+  "description": "Configurable language fallback chains, so a custom language variant (e.g. ja_jp_rubi) can fall back to another language instead of straight to English.",
+  "authors": [
+    "SHIRO"
+  ],
+  "license": "GPL-3.0",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.shiro.secondlang.SecondLangClient"
+    ],
+    "modmenu": [
+      "com.shiro.secondlang.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "secondlang.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}

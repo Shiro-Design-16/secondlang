@@ -1,0 +1,18 @@
+{
+  "gui.secondlang.title": "secondlang — language fallbacks",
+  "gui.secondlang.chain_title": "Fallbacks for %s",
+  "gui.secondlang.pick_title": "Add a fallback for %s",
+  "gui.secondlang.edit_chain": "Edit chain…",
+  "gui.secondlang.add_language": "Add language…",
+  "gui.secondlang.chain_hint": "Top entry has the highest priority",
+  "gui.secondlang.empty_chain": "No fallbacks configured",
+  "gui.secondlang.ruppi_note": "Ruppi: %s is added automatically just above English",
+  "gui.secondlang.picker_empty": "No other language packs are installed",
+  "gui.secondlang.move_up": "↑",
+  "gui.secondlang.move_down": "↓",
+  "gui.secondlang.remove": "✕",
+  "gui.secondlang.none": "—",
+  "gui.secondlang.unknown_language": "Unknown language",
+  "gui.secondlang.done": "Done",
+  "gui.secondlang.back": "Back"
+}

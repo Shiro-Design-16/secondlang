@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.shiro.secondlang.client.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "MixinLanguageManager"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
